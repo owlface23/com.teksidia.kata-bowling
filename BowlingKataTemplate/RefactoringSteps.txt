@@ -1,0 +1,18 @@
+﻿Taken from the PPT guide and condensed...remember Red, Green, Refactor .... and never be more than one step from Green!
+
+TEST 1
+	Score 0 (roll 20 0's)
+TEST 2
+	Score 20 (roll 20 1's
+	Refactor tests (RollMany loop)
+TEST 3
+	Attempt 'Spare Test' ... recognize design fault ... Roll? Score??
+	Comment out test, refactor to better design
+	Recognise need for frames/frame index to calculate spares - refactor
+	Comment 'Spare Test' back in ... make green!
+	Refactor tests (RollSpare)
+TEST 4
+	Attempt 'Strike Test' .. make green!
+	Refactor tests (RollStrike)
+TEST 5
+	Attempt 'Perfect Game' ... make green!
