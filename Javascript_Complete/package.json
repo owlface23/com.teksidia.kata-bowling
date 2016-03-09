@@ -1,0 +1,15 @@
+{
+  "name": "bowling_kata",
+  "version": "1.0.0",
+  "description": "JS version of Uncle Bobs Bowling Game kata",
+  "main": "kata.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "J Cox",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}

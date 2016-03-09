@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Bowling Kata</title>
+  <script src="kata.js"></script>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <h1>Bowling Kata</h1>
+  <script>
+      var game = new Game();
+      for (var i = 0; i < 20; i++) {
+        game.roll(1);
+      }
+      document.write('Final Score is ' + game.score());
+  </script>
+
+</body>
+</html>
